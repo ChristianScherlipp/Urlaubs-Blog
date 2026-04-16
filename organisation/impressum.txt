@@ -1,0 +1,15 @@
+**Impressum**
+
+Angaben gemäß § 5 TMG:
+
+[Dein Vor- und Nachname]
+[Deine Straße und Hausnummer]
+[PLZ und Ort]
+
+Kontakt:
+E-Mail: [[deine@email.de](mailto:deine@email.de)]
+Telefon: [optional, aber empfohlen]
+
+Verantwortlich für den Inhalt nach § 55 Abs. 2 MStV:
+[Dein Vor- und Nachname]
+[Deine Adresse wie oben]
