@@ -45,6 +45,9 @@
 
         font-size: 24px;
         font-weight: 500;
+    }
+
+    .text h3 {
         font-family: "palanquin";
     }
 
@@ -54,6 +57,7 @@
         border: none;
         border-bottom: 1px solid;
         overflow: hidden;
+        width: 100%;
     }
 
 
