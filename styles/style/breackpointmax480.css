@@ -8,64 +8,9 @@
         color: #4EA487;
     }
 
+    /* Style Highlights */
 
-
-    /* Style contact */
-
-    .contact {
-        display: flex;
-        flex-direction: column;
-        padding: 80px 18px;
-        color: #54370D;
-    }
-
-    .contact-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .contact-header>p {
-        display: none;
-    }
-
-
-    .contact-header img {
-        width: 30px;
-    }
-
-    .contact-pp {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-    }
-
-    .contact-pp>p {
-        font-family: "palanquin";
-        font-size: 15px;
-        font-weight: 400;
-        color: #54370D;
-    }
-
-    .contact-pp a{
-        color: #4EA487;
-    }
-
-    .text {
-
-        font-size: 24px;
-        font-weight: 500;
-
-    }
-
-    .text input {
-        border: none;
-        border-bottom: 1px solid;
-        width: 100%;
-    }
-
-    .highlights {
+        .highlights {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -127,6 +72,65 @@
      .slider_a input[value="chris"]:checked~.slider_a_wrapper {
         transform: translateX(calc(-100% / 3));
     }
+
+
+
+    /* Style contact */
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 18px;
+        color: #54370D;
+    }
+
+    .contact-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-header>p {
+        display: none;
+    }
+
+
+    .contact-header img {
+        width: 30px;
+    }
+
+    .contact-pp {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .contact-pp>p {
+        font-family: "palanquin";
+        font-size: 15px;
+        font-weight: 400;
+        color: #54370D;
+    }
+
+    .contact-pp a{
+        color: #4EA487;
+    }
+
+    .text {
+
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+    .text input {
+        border: none;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+
+
 
     .contact-button {
         display: flex;
