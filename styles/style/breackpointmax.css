@@ -9,6 +9,72 @@
         color: #4EA487;
     }
 
+    .highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 80px max(calc(50% - 720px), 80px);
+}
+
+
+.slider_a {
+    position: relative;
+
+    width: 100%;
+    height: 530px;
+
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    overflow: hidden;
+
+}
+
+.slider_a input {
+    z-index: 2;
+}
+
+.slider_a_wrapper {
+    z-index: 1;
+
+    width: 300%;
+    height: 100%;
+
+    position: absolute;
+    display: flex;
+
+    transition: all 255ms ease-in-out;
+}
+
+.slider_a_element img {
+    width: 100%;
+    height: 100%;
+
+    border-top-right-radius: 100px;
+}
+
+.slider_a_element {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.slider_a input[value="ana"]:checked~.slider_a_wrapper {
+    transform: translateX(calc(100% / 3));
+}
+
+.slider_a input[value="kevin"]:checked~.slider_a_wrapper {
+    transform: translateX(0);
+}
+
+.slider_a input[value="chris"]:checked~.slider_a_wrapper {
+    transform: translateX(calc(-100% / 3));
+}
+
 
 
     /* Style contact */

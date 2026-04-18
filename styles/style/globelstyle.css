@@ -1,18 +1,32 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-header{
-width: 100%;
-display: flex;
-justify-content: space-between;
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-p{
+p {
     font-family: 'Palanquin';
     color: rgba(61, 61, 61, 1);
-;
+    font-size: 1.5rem;
+
 }
+
+.highlights_header{
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
