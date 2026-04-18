@@ -15,5 +15,19 @@
     nav img{
         width: 50px;
     }
+       footer{
+        padding: 30px 24px;
+    }
+    .right_footer img{
+        width: 33px;
+    }
+    .mobile-menu-icons{
+    width: 100%;
+    background-color: rgba(241, 201, 83, 1);
+     display: flex;
+    justify-content: space-between;
+    padding: 24px 35px;
+}
+    
 
 }
