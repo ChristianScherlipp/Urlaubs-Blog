@@ -89,5 +89,13 @@
         flex-direction: row;
         justify-content: space-between;
     }
+     .mobile-menu-icons{
+        display: none;
+    }
+     .left-footer{
+        flex-direction: column-reverse;
+        gap: 6px;
+    }
+    
 
 }
