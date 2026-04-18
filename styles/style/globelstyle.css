@@ -4,21 +4,6 @@
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
-   h2 {
-        font-family: "arima";
-        font-size: 3.25rem;
-        font-weight: bold;
-        color: rgba(78, 164, 135, 1);
-
-    }
-
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-=======
->>>>>>> 22da59db8d9980197f5e8e147c540bcc14d98eaf
 
 nav {
         width: 100%;
