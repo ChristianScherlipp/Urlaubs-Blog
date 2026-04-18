@@ -61,6 +61,7 @@
 .slider_a_element {
     width: calc(100% / 3);
     height: 100%;
+    padding: 0px 120px;
 }
 
 .slider_a input[value="ana"]:checked~.slider_a_wrapper {
