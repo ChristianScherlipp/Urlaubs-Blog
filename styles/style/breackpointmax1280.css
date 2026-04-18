@@ -1,6 +1,20 @@
 /* Breackpoint from 769px to 1280px */
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+     nav {
+        gap: 50px;
+        padding: 32px 24px 24px 50px;
+        align-items: center;
+    }
+
+    nav img {
+        width: 72px;
+    }
+
+    .nav-links {
+        justify-content: space-between;
+        font-size: 18px;
+    }
 
     /* Style contact */
     .contact {
