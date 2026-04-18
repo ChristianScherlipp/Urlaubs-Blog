@@ -155,5 +155,8 @@
         flex-direction: row;
         justify-content: space-between;
     }
+      .mobile-menu-icons{
+        display: none;
+    }
 
 }
