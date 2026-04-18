@@ -116,4 +116,27 @@ p {
 
 
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4EA487;
+    padding: 60px 120px 60px 120px;
+}
+.left-footer{
+   display: flex;
+   gap: 20px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.right_footer{
+    display: flex;
+    gap: 16px;
+}
+
+
 
