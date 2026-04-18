@@ -1,7 +1,13 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
+<<<<<<< HEAD
+
+    h2 {
+        font-size: 2.5rem;
+=======
     .nav-links {
       display: none;  
+>>>>>>> 22da59db8d9980197f5e8e147c540bcc14d98eaf
     }
     nav{
         justify-content: center;

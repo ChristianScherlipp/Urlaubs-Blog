@@ -99,6 +99,8 @@ p {
 
 }
 
+/* STyling Highlights globel */
+
 .highlights_header{
     padding: 80px 120px;
     display: flex;
@@ -111,9 +113,41 @@ p {
 .highlights_header div {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 8px;
 }
 
+.highlights_header img {
+    width: 39px;
+    height: 39px;
 
+    padding: 3px;
+}
+
+/* Styling FAQ Globel */
+
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.faq_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.faq_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
 
 
