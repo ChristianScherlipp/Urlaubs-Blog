@@ -1,4 +1,13 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
-    
+    .nav-links {
+      display: none;  
+    }
+    nav{
+        justify-content: center;
+    }
+    nav img{
+        width: 50px;
+    }
+
 }
