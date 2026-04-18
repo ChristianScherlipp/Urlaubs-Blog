@@ -2,10 +2,7 @@
 @media screen and (max-width: 480px) {
 
     h2 {
-        font-family: "arima";
-        font-size: 37px;
-        font-weight: 700px;
-        color: #4EA487;
+        font-size: 2.5rem;
     }
 
     /* Style Highlights */
