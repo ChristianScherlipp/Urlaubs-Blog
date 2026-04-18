@@ -4,22 +4,93 @@
     scroll-behavior: smooth;
 }
 
-
 nav {
-        width: 100%;
-        display: flex;
-    gap: 50px;
+    display: flex;
+    justify-content: flex-start;
     background-color: #4EA487;
+    padding: 32px 24px 24px 70px;
+    gap: 50px;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
-        justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
     width: 40%;
+    color: #F8F5EB;
+    font-size: 24px;
+    
 }
-ul{
+
+ul {
     padding: 0px;
+    list-style: none;
+
 }
+
+.first-link{
+    position: relative;
+    color: #F8F5EB;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.hover-one{
+    display: none;
+}
+
+.first-link:hover .hover-one{
+    position: absolute;
+    width: 120px;
+    bottom: -9px;
+    left: -12px;
+    display: block;
+
+}
+
+.second-link{
+     position: relative;
+    color: #F8F5EB;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.hover-two{
+    display: none;
+}
+
+.second-link:hover .hover-two{
+    position: absolute;
+    width: 65px;
+    bottom: -8px;
+    left: -12px;
+    display: block;
+
+}
+.third-link{
+    position: relative;
+    color: #F8F5EB;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.hover-three{
+    display: none;
+}
+
+.third-link:hover .hover-three{
+    position: absolute;
+    width: 90px;
+    bottom: -9px;
+    left: -5px;
+    display: block;
+
+}
+
+
+
 
 p {
     font-family: 'Palanquin';
