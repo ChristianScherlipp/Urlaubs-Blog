@@ -1,7 +1,7 @@
 /* Breackpoint from 769px to 1280px */
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
-     nav {
+    nav {
         gap: 50px;
         padding: 32px 24px 24px 50px;
         align-items: center;
@@ -16,12 +16,14 @@
         font-size: 18px;
     }
 
+
     /* Style contact */
     .contact {
         display: flex;
         flex-direction: column;
         padding: 80px 18px;
         color: #54370D;
+        gap: 40px;
     }
 
     .contact-header {
@@ -67,7 +69,7 @@
         outline-offset: 0;
     }
 
-    .help-text{
+    .help-text {
         width: 100%;
     }
 
@@ -93,13 +95,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-     .mobile-menu-icons{
-        display: none;
-    }
-     .left-footer{
-        flex-direction: column-reverse;
-        gap: 6px;
-    }
-    
+
+    /* Style contact */
 
 }

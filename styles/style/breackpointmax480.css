@@ -1,33 +1,119 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
- HEAD
-
-    h2 {
+    HEAD h2 {
         font-size: 2.5rem;
     }
 
     .nav-links {
-      display: none;  
+        display: none;
     }
-    nav{
+
+    nav {
         justify-content: center;
     }
-    nav img{
+
+    nav img {
         width: 50px;
     }
-       footer{
+
+    footer {
         padding: 30px 24px;
     }
-    .right_footer img{
+
+    .right_footer img {
         width: 33px;
     }
-    .mobile-menu-icons{
-    width: 100%;
-    background-color: rgba(241, 201, 83, 1);
-     display: flex;
-    justify-content: space-between;
-    padding: 24px 35px;
-}
-    
 
+    .mobile-menu-icons {
+        width: 100%;
+        background-color: rgba(241, 201, 83, 1);
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 35px;
+    }
+
+    /* Style contact */
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 18px;
+        color: #54370D;
+        gap: 40px;
+    }
+
+    .contact-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-header>p {
+        display: none;
+    }
+
+
+    .contact-header img {
+        width: 30px;
+    }
+
+    .contact-pp {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .contact-pp>p {
+        font-family: "palanquin";
+        font-size: 15px;
+        font-weight: 400;
+        color: #54370D;
+    }
+
+    .contact-pp a {
+        color: #4EA487;
+    }
+
+    .text {
+
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+    .text input {
+        border: none;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+
+
+
+    .contact-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-button input {
+        width: 140px;
+        height: 50px;
+        border-radius: 120px;
+        background-color: white;
+        border-color: #737373;
+        color: #737373;
+
+        font-family: "arima";
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .contact-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Style contact */
 }
