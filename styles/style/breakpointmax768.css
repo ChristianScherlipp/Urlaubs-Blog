@@ -1,5 +1,93 @@
 /* Breackpoint from 481px to 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    
+
+
+    h2 {
+        font-family: "arima";
+        font-size: 40px;
+        font-weight: 700px;
+        color: #4EA487;
+    }
+
+
+
+    /* Style contact */
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 18px;
+        color: #54370D;
+    }
+
+    .contact-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+    .contact-header img {
+        width: 30px;
+    }
+
+    .contact-pp {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .contact-pp>p {
+        font-family: "palanquin";
+        font-size: 15px;
+        font-weight: 400;
+        color: #54370D;
+    }
+
+    .contact-pp a {
+        color: #4EA487;
+    }
+
+    .text {
+
+        font-size: 24px;
+        font-weight: 500;
+        width:100%;
+
+    }
+
+    .text input {
+        border: none;
+        border-bottom: 1px solid;
+        width: 100%;
+        outline-offset: 0;
+    }
+
+    .contact-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-button input {
+        width: 140px;
+        height: 50px;
+        border-radius: 120px;
+        background-color: white;
+
+        font-family: "arima";
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .contact-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 }

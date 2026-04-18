@@ -1,21 +1,48 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
-nav{
-    width: 100%;
-    display: flex;
+nav {
+        width: 100%;
+        display: flex;
     gap: 50px;
     background-color: #4EA487;
 }
 
 .nav-links{
     display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
     width: 40%;
 }
 ul{
     padding: 0px;
 }
+
+p {
+    font-family: 'Palanquin';
+    color: rgba(61, 61, 61, 1);
+    font-size: 1.5rem;
+
+}
+
+.highlights_header{
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.highlights_header div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+
+
