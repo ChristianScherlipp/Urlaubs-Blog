@@ -27,6 +27,12 @@ p {
     gap: 24px;
 }
 
+.highlights_header div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
 
 
 
