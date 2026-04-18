@@ -142,8 +142,28 @@ p {
     gap: 8px;
 }
 
+details {
+    width: 100%;
 
+    background-color: rgba(241, 201, 83, 1);
+    border-radius: 12px;
+    padding: 16px 14px;
 
+    cursor: pointer;
+}
+
+summary {
+
+    font-family: 'Palanquin';
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: rgba(84, 55, 13, 1);
+
+    list-style: none;
+}
+
+/* Style Footer */
 footer{
     display: flex;
     justify-content: space-between;
