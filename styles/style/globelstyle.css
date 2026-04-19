@@ -19,7 +19,7 @@ nav {
     width: 40%;
     color: #F8F5EB;
     font-size: 24px;
-    
+
 }
 
 ul {
@@ -28,18 +28,19 @@ ul {
 
 }
 
-.first-link{
+.first-link {
     position: relative;
     color: #F8F5EB;
     font-size: 24px;
     text-decoration: none;
 
 }
-.hover-one{
+
+.hover-one {
     display: none;
 }
 
-.first-link:hover .hover-one{
+.first-link:hover .hover-one {
     position: absolute;
     width: 120px;
     bottom: -9px;
@@ -48,27 +49,7 @@ ul {
 
 }
 
-.second-link{
-     position: relative;
-    color: #F8F5EB;
-    font-size: 24px;
-    text-decoration: none;
-
-}
-
-.hover-two{
-    display: none;
-}
-
-.second-link:hover .hover-two{
-    position: absolute;
-    width: 65px;
-    bottom: -8px;
-    left: -12px;
-    display: block;
-
-}
-.third-link{
+.second-link {
     position: relative;
     color: #F8F5EB;
     font-size: 24px;
@@ -76,11 +57,32 @@ ul {
 
 }
 
-.hover-three{
+.hover-two {
     display: none;
 }
 
-.third-link:hover .hover-three{
+.second-link:hover .hover-two {
+    position: absolute;
+    width: 65px;
+    bottom: -8px;
+    left: -12px;
+    display: block;
+
+}
+
+.third-link {
+    position: relative;
+    color: #F8F5EB;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.hover-three {
+    display: none;
+}
+
+.third-link:hover .hover-three {
     position: absolute;
     width: 90px;
     bottom: -9px;
@@ -101,7 +103,7 @@ p {
 
 /* STyling Highlights globel */
 
-.highlights_header{
+.highlights_header {
     padding: 80px 120px;
     display: flex;
     justify-content: center;
@@ -165,42 +167,45 @@ summary {
 }
 
 summary::before {
-  content: "";
-  position: absolute;
-  top: 30%;
-  right: 10px;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  background-image: url("../../assets/icons/faq_arrow.png");
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-image: url("../../assets/icons/faq_arrow.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 /* Style Footer */
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #4EA487;
     padding: 60px 120px 60px 120px;
 }
-.left-footer{
-   display: flex;
-   gap: 20px;
+
+.left-footer {
+    display: flex;
+    gap: 20px;
 }
-.brand{
+
+.brand {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.right_footer{
+.right_footer {
     display: flex;
     gap: 16px;
 }
+
 .faq_section {
     display: flex;
     justify-content: center;
@@ -208,5 +213,3 @@ footer{
     flex-direction: column;
     gap: 32px;
 }
-
-
