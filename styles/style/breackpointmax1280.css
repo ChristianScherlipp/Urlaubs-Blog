@@ -103,7 +103,9 @@
         justify-content: space-between;
     }
 
-    
+     .mobile-menu-icons{
+        display: none;
+     }
 
     /* Style contact */
 
