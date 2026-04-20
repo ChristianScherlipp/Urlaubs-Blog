@@ -16,6 +16,13 @@
         font-size: 18px;
     }
 
+        h2 {
+        font-family: "arima";
+        font-size: 40px;
+        font-weight: 700px;
+        color: #4EA487;
+    }
+
 
     /* Style contact */
     .contact {
