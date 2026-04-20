@@ -32,6 +32,13 @@
         padding: 24px 35px;
     }
 
+        h2 {
+        font-size: 2.5rem;
+        font-family: "arima";
+        font-weight: 700px;
+        color: #4EA487;
+    }
+
     /* Style contact */
 
     .contact {
