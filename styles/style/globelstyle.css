@@ -243,6 +243,12 @@ footer {
 .left-footer {
     display: flex;
     gap: 20px;
+    
+}
+.left-footer a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 .brand {
