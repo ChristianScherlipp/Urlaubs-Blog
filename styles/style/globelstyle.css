@@ -167,6 +167,13 @@ details {
     cursor: pointer;
 }
 
+details>p {
+    font-size: 1.125rem;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+
 
 summary {
     position: relative;
@@ -180,18 +187,23 @@ summary {
 }
 
 summary::before {
-    content: "";
+    content: "<";
     position: absolute;
-    top: 30%;
+    top: 50%;
     right: 10px;
+    transform: translateY(-50%) rotate(-90deg) scaleY(2);
     display: inline-block;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    background-image: url("../../assets/icons/faq_arrow.png");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+}
+
+details[open] > summary::before {
+     position: absolute;
+    top: 50%;
+    right: 10px;
+  transform: translateY(-50%) rotate(90deg) rotateX(180deg) scaleY(2);
+  display: inline-block;
 }
 
 /* Style Footer */
