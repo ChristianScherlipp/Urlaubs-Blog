@@ -103,6 +103,31 @@ ul {
     display: block;
 
 }
+.img_style{
+    background-image: url(../../assets/img/header\ photo@2x.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    
+    width: 100%;
+    max-width: 1440px;
+    padding-inline: 120px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+.img_style img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
 
 
 
