@@ -163,7 +163,10 @@ ul {
 }
 
 @keyframes slideInLeft {
-    to { opacity: 1; transform: translateX(0); }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .image-side {
@@ -182,7 +185,7 @@ ul {
     background: #c0392b;
     display: flex;
     justify-content: center;
-    color: rgba(255,255,255,0.3);
+    color: rgba(255, 255, 255, 0.3);
     font-size: 10px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -200,7 +203,9 @@ ul {
 }
 
 @keyframes badgeIn {
-    to { opacity: 1; }
+    to {
+        opacity: 1;
+    }
 }
 
 .badge-ring {
@@ -211,8 +216,13 @@ ul {
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to   { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .badge-center {
@@ -513,36 +523,50 @@ h1 {
 }
 
 .gl-text-content {
-    padding: 88px 120px;
+    padding: 0px 120px;
+    padding-top: 88px;
+}
+
+.gl-text-content-2 {
+    padding: 0px 120px;
+    padding-bottom: 88px;
 }
 
 .gl-list {
     padding: 30px 120px;
 }
 
-.tips-list {
+.gl-list ul {
+    list-style-type: disc;
+}
+
+.tipps-list {
     padding: 30px 120px;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
-.tips-list>ol {
-    background-color: #4EA487;
+.tipps-list>ol {
+    background-color: #4EA48740;
     border-radius: 30px;
     width: auto;
     height: auto;
+    padding: 30px;
 }
 
-.tips-list>a {
+.tipps-list>a {
     color: #4EA48733;
 }
 
-.tips-list>img {
+.tipps-img {
     width: 150px;
     height: auto;
+    margin-bottom: -3%;
+    margin-left: -3%;
+
 }
 
 .share {
