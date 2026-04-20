@@ -106,7 +106,7 @@ ul {
 
 .hero {
     background: #fff;
-    height: 530px;
+    height: 450px;
     display: flex;
     align-items: stretch;
     justify-content: stretch;
@@ -182,7 +182,6 @@ ul {
     height: 100%;
     background: #c0392b;
     display: flex;
-    align-items: center;
     justify-content: center;
     color: rgba(255,255,255,0.3);
     font-size: 10px;
