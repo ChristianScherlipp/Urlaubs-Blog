@@ -35,6 +35,19 @@ ul {
     text-decoration: none;
 
 }
+.first-link:active{
+    color: rgba(241, 201, 83, 1); 
+}
+
+.second-link:active{
+    color: rgba(241, 201, 83, 1); 
+    
+}
+
+.third-link:active{
+    color: rgba(241, 201, 83, 1); 
+}
+
 
 .hover-one {
     display: none;
