@@ -112,7 +112,9 @@ ul {
 .hero-txt {
     position: absolute;
     width: 350px;
-    z-index: 1;
+    z-index: 4;
+    top: 150px;
+    left: 120px;
 }
 
 .logo-header {
@@ -121,8 +123,9 @@ ul {
     align-items: center;
     position: absolute;
 
-    top: 65%;
-    left: 42%;
+    top: 49%;
+    left: 31%;
+    z-index: 3;
 }
 
 .static {
@@ -460,13 +463,13 @@ h1 {
 
 }
 
-h4{
+h4 {
     font-family: "Ariam";
     font-size: 1.125;
     color: rgba(84, 55, 13, 1);
 }
 
-.gl-info>img{
+.gl-info>img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -542,6 +545,7 @@ h4{
     height: auto;
     margin-bottom: -3%;
     margin-left: -3%;
+    z-index: 2;
 
 }
 
@@ -553,6 +557,12 @@ h4{
     align-items: center;
     text-align: center;
     gap: 48px;
+    padding-bottom: 30px;
+}
+
+.arow{
+    position: absolute;
+
 }
 
 .gl-share-button {
@@ -619,14 +629,17 @@ h4{
     transition: all 250ms ease-in-out;
     border-radius: 15px;
 }
-.slider_element:hover{
+
+.slider_element:hover {
     z-index: 2;
     transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
 }
-.slider_element:hover~.slider_element{
-   transform: perspective(300px) rotateY(-15deg) translateX(15px)
+
+.slider_element:hover~.slider_element {
+    transform: perspective(300px) rotateY(-15deg) translateX(15px)
 }
-.autor_style{
+
+.autor_style {
     background-color: #4EA48733;
     border-radius: 5%;
 
@@ -636,9 +649,10 @@ h4{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap:15px
+    gap: 15px
 }
-.autor_style >img{
+
+.autor_style>img {
     width: 150px;
     height: 180px;
     border-radius: 48%;
@@ -646,7 +660,7 @@ h4{
 
 /* Seite Chris */
 
-.Static_section{
+.Static_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -655,7 +669,7 @@ h4{
     gap: 24px;
 }
 
-h3{
+h3 {
     font-family: 'Arima';
     font-size: 2rem;
     color: rgba(84, 55, 13, 1);
@@ -667,11 +681,11 @@ h3{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.89), 0px 0px 8px rgba(0, 0, 0, 0.534), 0px 0px 8px rgba(0, 0, 0, 0.185);
 }
 
-.Static_section>article{
+.Static_section>article {
     padding-top: 80px;
 }
 
-.activ{
+.activ {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -703,5 +717,5 @@ h3{
 .activ_card>img {
     width: 520px;
     border-radius: 53px;
-     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.89), 0px 0px 8px rgba(0, 0, 0, 0.534), 0px 0px 8px rgba(0, 0, 0, 0.185);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.89), 0px 0px 8px rgba(0, 0, 0, 0.534), 0px 0px 8px rgba(0, 0, 0, 0.185);
 }

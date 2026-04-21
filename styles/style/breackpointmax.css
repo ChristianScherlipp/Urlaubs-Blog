@@ -1,10 +1,10 @@
 /* Breakpoint from 1281px to openend  Dran Denken max width sind 1440px */
 
 @media screen and (min-width: 1281px) {
-  
-    
 
-   
+
+
+
 
     /* Style FAQ */
 
@@ -29,7 +29,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        padding: 80px max(calc(50% - 720px), 80px);
+        padding: 120px max(calc(50% - 720px), 120px);
         color: #54370D;
         gap: 40px;
     }
@@ -74,7 +74,11 @@
         border: none;
         border-bottom: 1px solid;
         width: 100%;
-        outline-offset: 0;
+        outline-offset: unset;
+    }
+
+    .text>input:focus-visible {
+        outline: none;
     }
 
     .help-text {

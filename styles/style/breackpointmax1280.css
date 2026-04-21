@@ -28,7 +28,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        padding: 80px 18px;
+        padding: 80px 120px;
         color: #54370D;
         gap: 40px;
     }
@@ -73,7 +73,11 @@
         border: none;
         border-bottom: 1px solid;
         width: 100%;
-        outline-offset: 0;
+        outline-offset: unset;
+    }
+
+    .text>input:focus-visible {
+        outline: none;
     }
 
     .help-text {
@@ -103,9 +107,9 @@
         justify-content: space-between;
     }
 
-     .mobile-menu-icons{
+    .mobile-menu-icons {
         display: none;
-     }
+    }
 
     /* Style contact */
 

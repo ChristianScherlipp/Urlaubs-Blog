@@ -28,7 +28,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        padding: 80px 18px;
+        padding: 80px 120px;
         color: #54370D;
         gap: 40px;
     }
@@ -57,6 +57,10 @@
         color: #54370D;
     }
 
+    .contact-email {
+        padding-top: 15px;
+    }
+
     .contact-pp a {
         color: #4EA487;
     }
@@ -74,6 +78,10 @@
         border-bottom: 1px solid;
         width: 100%;
         outline-offset: 0;
+    }
+
+    .text>input:focus-visible {
+        outline: none;
     }
 
     .contact-button {

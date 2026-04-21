@@ -44,7 +44,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        padding: 80px 18px;
+        padding: 80px 120px;
         color: #54370D;
         gap: 40px;
     }
@@ -63,6 +63,10 @@
 
     .contact-header img {
         width: 30px;
+    }
+
+    .contact-email {
+        padding-top: 15px;
     }
 
     .contact-pp {
@@ -84,9 +88,12 @@
 
     .text {
 
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
+    }
 
+    .text>h3 {
+        font-size: 1.6rem;
     }
 
     .text input {
@@ -95,7 +102,9 @@
         width: 100%;
     }
 
-
+    .text>input:focus-visible {
+        outline: none;
+    }
 
     .contact-button {
         display: flex;
@@ -138,6 +147,6 @@
     .mobile-menu-icons {
         position: fixed;
         bottom: 0px;
-        
+
     }
 }
