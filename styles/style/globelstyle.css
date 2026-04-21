@@ -423,6 +423,7 @@ h1 {
 
 .gl-icon {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .gl-icon {
