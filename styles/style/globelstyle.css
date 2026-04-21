@@ -612,3 +612,14 @@ h1 {
     font-size: 24px;
     font-weight: 700;
 }
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Abstand innerhalb eines Blocks */
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* Abstand zwischen Adresszeilen */
+}
