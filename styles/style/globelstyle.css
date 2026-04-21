@@ -431,24 +431,49 @@ h1 {
     gap: 30px;
 }
 
+.gl-starttext {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 26px;
+    padding-bottom: 19px;
+}
+
 .gl-starttext>h2 {
     font-size: 40px;
     font-weight: 600;
 }
 
 .gl-info {
+    height: 100%x;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     background-color: #4EA48733;
     border-radius: 5%;
 
     font-family: "Ariam";
 
     padding: 16px;
+
+}
+
+h4{
+    font-family: "Ariam";
+    font-size: 1.125;
+    color: rgba(84, 55, 13, 1);
+}
+
+.gl-info>img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
 }
 
 .gl-info>p {
     font-size: 16px;
-    width: 270px;
-    height: 225px;
 
 }
 
@@ -458,6 +483,8 @@ h1 {
     padding-left: 120px;
     padding-right: 120px;
 }
+
+/* Kevin Seite */
 
 .video {
     display: flex;
@@ -519,11 +546,13 @@ h1 {
 }
 
 .share {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 48px;
 }
 
 .gl-share-button {
@@ -544,6 +573,14 @@ h1 {
     font-size: 24px;
     font-weight: 700;
 }
+
+.gl-share-img {
+    position: absolute;
+    top: 44%;
+    left: 35.5%;
+}
+
+/* Annastasiia Seite */
 
 .block {
     display: flex;
@@ -605,4 +642,66 @@ h1 {
     width: 150px;
     height: 180px;
     border-radius: 48%;
+}
+
+/* Seite Chris */
+
+.Static_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 120px;
+    gap: 24px;
+}
+
+h3{
+    font-family: 'Arima';
+    font-size: 2rem;
+    color: rgba(84, 55, 13, 1);
+}
+
+.card_static {
+    width: 640px;
+    border-radius: 53px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.89), 0px 0px 8px rgba(0, 0, 0, 0.534), 0px 0px 8px rgba(0, 0, 0, 0.185);
+}
+
+.Static_section>article{
+    padding-top: 80px;
+}
+
+.activ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+
+    padding: 0px 120px;
+}
+
+.activ_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 80px;
+
+
+}
+
+.activ_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.activ_card>img {
+    width: 520px;
+    border-radius: 53px;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.89), 0px 0px 8px rgba(0, 0, 0, 0.534), 0px 0px 8px rgba(0, 0, 0, 0.185);
 }
