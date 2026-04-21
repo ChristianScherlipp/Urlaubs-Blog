@@ -302,6 +302,22 @@ p {
     z-index: 2;
 }
 
+input[type="radio"] {
+        appearance: none;
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    input[type="radio"]:checked {
+        background-color: rgba(241, 201, 83, 1);
+        width: 30px;
+        border-radius: 10px;
+    }
+
 .slider_a_wrapper {
     z-index: 1;
 
