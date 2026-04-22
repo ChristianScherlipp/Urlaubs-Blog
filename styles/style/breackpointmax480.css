@@ -245,6 +245,8 @@ input[ type = "radio" ]{
 #s4:checked ~ .dots label[for="s4"],
 #s5:checked ~ .dots label[for="s5"]{
     background-color: rgba(78, 164, 135, 1);
+    width: 25px;
+    border-radius: 30%;
 }
 .viewport{
     overflow: hidden;
@@ -273,6 +275,7 @@ input[ type = "radio" ]{
 #s5:checked ~ .viewport .slider img:nth-child(5)
  {
     transform: none;
+    
 
 }
 
@@ -281,6 +284,7 @@ input[ type = "radio" ]{
 #s4:checked ~ .viewport .slider img:nth-child(-n+3),
 #s5:checked ~ .viewport .slider img:nth-child(-n+4) {
     transform: perspective(300px) rotateY(15deg) translateX(-15px);
+    
 }
 
 
