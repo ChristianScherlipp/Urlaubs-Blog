@@ -26,6 +26,21 @@
         color: #4EA487;
     }
 
+    /* Style Highlights */
+
+
+      .highlights_header {
+    padding: 0px 50px 80px 50px;
+    }
+
+     .slider_a_element {
+    padding: 0px 50px;
+    }
+
+     /* Style FAQ */
+    .faq_section {
+         padding: 0px 50px;
+    }
 
 
     /* Style contact */
