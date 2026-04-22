@@ -111,14 +111,17 @@ ul {
 
 /* style header bild */
 
+.hero{
+padding: 0px 120px;
 
+}
 
 .hero-txt {
     position: absolute;
-    width: 350px;
+    width: 24%;
     z-index: 4;
-    top: 150px;
-    left: 120px;
+    top: 14vh;
+    left: 5vh;
 }
 
 .logo-header {
@@ -127,6 +130,7 @@ ul {
     align-items: center;
     position: absolute;
 
+
     top: 49%;
     left: 31%;
     z-index: 3;
@@ -134,7 +138,10 @@ ul {
 
 .static {
     position: absolute;
+    left: 4.5vh;
+    top: 4.5vh;
     z-index: 3;
+    width: 68px;
 }
 
 .rotate {
@@ -564,7 +571,7 @@ h4 {
     padding-bottom: 30px;
 }
 
-.arow{
+.arow {
     position: absolute;
 
 }
