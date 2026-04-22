@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+ header {
+        background-color: rgba(78, 164, 135, 1);
+    }
+
 nav {
     display: flex;
     justify-content: flex-start;
