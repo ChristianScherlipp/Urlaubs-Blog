@@ -4,9 +4,9 @@
     scroll-behavior: smooth;
 }
 
- header {
-        background-color: rgba(78, 164, 135, 1);
-    }
+header {
+    background-color: rgba(78, 164, 135, 1);
+}
 
 nav {
     display: flex;
@@ -111,8 +111,8 @@ ul {
 
 /* style header bild */
 
-.hero{
-padding: 0px 120px;
+.hero {
+    padding: 0px 120px;
 
 }
 
@@ -120,8 +120,9 @@ padding: 0px 120px;
     position: absolute;
     width: 24%;
     z-index: 4;
-    top: 14vh;
-    left: 5vh;
+    top: 7vh;
+    left: 2vh;
+    white-space: nowrap;
 }
 
 .logo-header {
@@ -138,10 +139,13 @@ padding: 0px 120px;
 
 .static {
     position: absolute;
-    left: 4.5vh;
-    top: 4.5vh;
+    left: 5vh;
+    top: 5vh;
     z-index: 3;
-    width: 68px;
+}
+
+.static img{
+    width: 60px;
 }
 
 .rotate {
@@ -293,14 +297,14 @@ input[type="radio"]:checked {
     position: relative;
 }
 
-.slider_a_element a{
+.slider_a_element a {
     height: 100%;
     width: 100%;
-   display: block;
-   position: relative;
+    display: block;
+    position: relative;
 }
 
-.slider_overlay{
+.slider_overlay {
     position: absolute;
     top: 54px;
     left: 38px;
@@ -317,7 +321,7 @@ input[type="radio"]:checked {
     text-align: center;
 
     border-radius: 5px;
-     box-shadow: 0px 0px  2px rgba(255, 255, 255, 0.89), 0px 0px 8px rgba(255, 255, 255, 0.397), 0px 0px 8px rgba(255, 255, 255, 0.185);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.89), 0px 0px 8px rgba(255, 255, 255, 0.397), 0px 0px 8px rgba(255, 255, 255, 0.185);
 }
 
 .slider_overlay h1 {
@@ -357,10 +361,10 @@ input[type="radio"]:checked {
     gap: 48px;
 }
 
- .faq_section {
-        width: 100%;
-         padding: 0px 120px;
-    }
+.faq_section {
+    width: 100%;
+    padding: 0px 120px;
+}
 
 .faq_head {
     display: flex;
@@ -458,7 +462,7 @@ footer {
     gap: 32px;
 }
 
-/* style eigene Seiten */
+/* gl style eigene Seiten */
 
 h1 {
     color: #F1C953;
@@ -549,6 +553,8 @@ h4 {
     padding-right: 120px;
 }
 
+
+
 /* Kevin Seite */
 
 .video {
@@ -611,20 +617,66 @@ h4 {
 
 }
 
-.share {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Style Share */
+
+.gl-share-one {
+    width: 495px;
+    margin: auto;
     text-align: center;
-    gap: 48px;
-    padding-bottom: 30px;
 }
+
+.gl-share-text {
+    white-space: nowrap;
+}
+
+.gl-share-link {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    display: none;
+}
+
 
 .arow {
     position: absolute;
 
+}
+
+.gl-share-img {
+    position: relative;
+    left: 0px;
+    top: -10px;
+    text-align: left;
+}
+
+.gl-share-button  {
+    z-index: 1;
+}
+
+
+.gl-share-button-master {
+    white-space: nowrap;
+    position: relative;
+    top: -50px;
+}
+
+.gl-share-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.gl-share-button button:active {
+    animation: slide-left 1s ease-in-out forwards;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
 }
 
 .gl-share-button {
@@ -633,7 +685,7 @@ h4 {
     justify-content: center;
 }
 
-.gl-share-button input {
+.gl-share-button button {
     width: 140px;
     height: 50px;
     border-radius: 120px;
@@ -644,12 +696,6 @@ h4 {
     font-family: "arima";
     font-size: 24px;
     font-weight: 700;
-}
-
-.gl-share-img {
-    position: absolute;
-    top: 44%;
-    left: 35.5%;
 }
 
 /* Annastasiia Seite */
@@ -702,9 +748,14 @@ h4 {
     border-radius: 15px;
 }
 
-#s1,#s2,#s3,#s4,#s5{
+#s1,
+#s2,
+#s3,
+#s4,
+#s5 {
     display: none;
 }
+
 .slider_element:hover {
     z-index: 2;
     transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
