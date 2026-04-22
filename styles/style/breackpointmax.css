@@ -2,7 +2,9 @@
 
 @media screen and (min-width: 1281px) {
 
-
+     header {
+        padding: 0px max(calc(50% - 720px));
+    }
 
 
 
@@ -110,6 +112,35 @@
 
     .mobile-menu-icons {
         display: none;
+    }
+
+     /* styling Footer */
+
+    footer {
+         padding: 60px max(calc(50% - 720px));
+    }
+
+    .mobile-menu-icons {
+        display: none;
+    }
+
+      /* style Eigene Seite */
+
+    .gl-start-section {
+        padding: 0px max(calc(50% - 720px));
+    }
+
+
+    .Static_section {
+        padding: 0px max(calc(50% - 720px));
+    }
+
+    .activ{
+        padding: 0px max(calc(50% - 720px));
+    }
+
+    .share {
+        padding: 80px max(calc(50% - 720px));
     }
 
 }
