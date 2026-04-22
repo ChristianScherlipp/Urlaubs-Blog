@@ -1,6 +1,15 @@
 /* Breackpoint from 769px to 1280px */
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+   
+   h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.25rem;
+    }
+   
     nav {
         gap: 50px;
         padding: 32px 24px 24px 50px;
@@ -111,6 +120,24 @@
         display: none;
     }
 
-    /* Style contact */
+      /* Style eigene Seite */
+
+    .share{
+        padding: 40px 0px 120px 0;
+    }
+
+    .activ {
+        padding: 0px 60px;
+    }
+     .activ_section {
+        gap: 40px;
+     }
+    .activ_card {
+        justify-content: space-between;
+    }
+
+    .activ_card>img {
+    width: 100%;
+    }
 
 }

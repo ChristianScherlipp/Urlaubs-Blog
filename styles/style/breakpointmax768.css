@@ -1,6 +1,11 @@
 /* Breackpoint from 481px to 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    
+     .p{
+        font-size: 1.25rem;
+    }
+    
     .nav-links {
         display: none;
     }
@@ -130,5 +135,44 @@
         justify-content: space-between;
         padding: 24px 35px;
     }
+    
+    /* style eigene Seite */
 
+    .gl-starttext {
+    padding-right: 0px;
+    
+}
+
+    .gl-icon{
+        gap: 10px;
+    }
+
+    .gl-preface {
+        flex-direction: column;
+    }
+
+    .activ_section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .share{
+        padding-top: 40px;
+        padding-bottom: 120px;
+    }
+
+    /* Seite CHris */
+
+    .Static_section {
+    padding: 80px 40px;
+    
+}
+
+    .card_static {
+    width: 100%;
+    }
+
+    .activ_card>img {
+    width: 100%;
+    }
 }

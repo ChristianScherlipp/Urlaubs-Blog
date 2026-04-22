@@ -1,7 +1,16 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
+    
+     h1{
+        font-size: 2.5;
+    }
+
+    .p{
+        font-size: 1rem;
+    }
+    
     HEAD h2 {
-        font-size: 2.5rem;
+        font-size: 1.25rem;
     }
 
     .nav-links {
@@ -33,9 +42,9 @@
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 1.25rem;
         font-family: "arima";
-        font-weight: 700px;
+        font-weight: 700;
         color: #4EA487;
     }
 
@@ -44,7 +53,7 @@
     .contact {
         display: flex;
         flex-direction: column;
-        padding: 80px 120px;
+        padding: 80px 18px;
         color: #54370D;
         gap: 40px;
     }
@@ -131,7 +140,7 @@
         justify-content: space-between;
     }
 
-    /* Style contact */
+    /* Style footer */
 
 
     .left-footer {
@@ -148,5 +157,53 @@
         position: fixed;
         bottom: 0px;
 
+    }
+
+    /* tyle Eigene Seite */
+
+     .gl-starttext {
+    padding-right: 0px;
+    
+}
+
+    .gl-starttext>h2{
+        font-size: 1.25rem;
+    }
+
+    .gl-icon{
+        gap: 10px;
+    }
+
+    .gl-preface {
+        flex-direction: column;
+    }
+
+    .activ_section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .share{
+        padding-top: 40px;
+        padding-bottom: 120px;
+    }
+
+    /* Seite Chris */
+
+      .Static_section {
+    padding: 80px 40px;
+    
+}
+
+    .card_static {
+    width: 100%;
+    }
+
+    .activ {
+        padding: 0px 40px;
+    }
+
+    .activ_card>img {
+    width: 100%;
     }
 }
