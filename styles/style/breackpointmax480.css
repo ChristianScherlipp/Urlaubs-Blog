@@ -206,4 +206,102 @@
     .activ_card>img {
     width: 100%;
     }
+
+
+
+
+.slider{
+    gap:10px;
+   
+   justify-content: flex-start;
 }
+.slider img{
+    width: 100%;
+    
+}
+
+
+input[ type = "radio" ]{
+ display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+.dots label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:rgba(78, 164, 135, 0.3);
+ 
+}
+
+#s1:checked ~ .dots label[for="s1"],
+#s2:checked ~ .dots label[for="s2"],
+#s3:checked ~ .dots label[for="s3"],
+#s4:checked ~ .dots label[for="s4"],
+#s5:checked ~ .dots label[for="s5"]{
+    background-color: rgba(78, 164, 135, 1);
+}
+.viewport{
+    overflow: hidden;
+}
+
+#s1:checked .slider{
+    transform: translateX(0px);
+}
+#s2:checked ~ .viewport .slider{
+    transform: translateX(-60%);
+}
+#s3:checked ~  .viewport .slider{
+    transform: translateX(-120%);
+}
+#s4:checked ~ .viewport .slider{
+    transform: translateX(-180%);
+}
+#s5:checked ~ .viewport .slider{
+    transform: translateX(-240%);
+}
+
+#s1:checked ~ .viewport .slider img:nth-child(1), 
+#s2:checked ~ .viewport .slider img:nth-child(2), 
+#s3:checked ~ .viewport .slider img:nth-child(3), 
+#s4:checked ~ .viewport .slider img:nth-child(4), 
+#s5:checked ~ .viewport .slider img:nth-child(5)
+ {
+    transform: none;
+
+}
+
+#s2:checked ~ .viewport .slider img:nth-child(1),
+#s3:checked ~ .viewport .slider img:nth-child(-n+2),
+#s4:checked ~ .viewport .slider img:nth-child(-n+3),
+#s5:checked ~ .viewport .slider img:nth-child(-n+4) {
+    transform: perspective(300px) rotateY(15deg) translateX(-15px);
+}
+
+
+#element_a{
+    transform: perspective(300px) rotateY(-15deg) translateX(-15px);
+}
+#element_b{
+     transform:  perspective(300px) rotateY(-15deg) translateX(-15px);
+}
+
+#element_c{
+     transform:  perspective(300px) rotateY(-15deg) translateX(-15px);
+}
+#element_d{
+     transform:  perspective(300px) rotateY(-15deg) translateX(-15px);
+}
+#element_e{
+     transform:  perspective(300px) rotateY(-15deg) translateX(-15px);
+}
+
+
+
+}
+
