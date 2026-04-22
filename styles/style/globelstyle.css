@@ -195,7 +195,7 @@ p {
 /* STyling Highlights globel */
 
 .highlights_header {
-    padding: 80px 120px;
+    padding: 0px 120px 80px 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,12 +281,57 @@ input[type="radio"]:checked {
     height: 100%;
 
     border-top-right-radius: 100px;
+
+    display: block;
 }
 
 .slider_a_element {
     width: calc(100% / 3);
     height: 100%;
     padding: 0px 120px;
+
+    position: relative;
+}
+
+.slider_a_element a{
+    height: 100%;
+    width: 100%;
+   display: block;
+   position: relative;
+}
+
+.slider_overlay{
+    position: absolute;
+    top: 54px;
+    left: 38px;
+    width: clamp(200px, 75%, 900px);
+    height: clamp(100px, 50%, 250px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: rgba(240, 240, 240, 0.3);
+    text-align: center;
+
+    border-radius: 5px;
+     box-shadow: 0px 0px  2px rgba(255, 255, 255, 0.89), 0px 0px 8px rgba(255, 255, 255, 0.397), 0px 0px 8px rgba(255, 255, 255, 0.185);
+}
+
+.slider_overlay h1 {
+    margin: 0;
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: bold;
+    color: white;
+}
+
+.slider_overlay p {
+    margin: 0;
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    font-weight: 400;
+    color: white;
 }
 
 .slider_a input[value="ana"]:checked~.slider_a_wrapper {
@@ -311,6 +356,11 @@ input[type="radio"]:checked {
     flex-direction: column;
     gap: 48px;
 }
+
+ .faq_section {
+        width: 100%;
+         padding: 0px 120px;
+    }
 
 .faq_head {
     display: flex;
@@ -344,7 +394,7 @@ summary {
     font-weight: bold;
 
     color: rgba(84, 55, 13, 1);
-
+    padding-right: 25px;
     list-style: none;
 }
 
@@ -352,7 +402,7 @@ summary::before {
     content: "<";
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 3%;
     transform: translateY(-50%) rotate(-90deg) scaleY(2);
     display: inline-block;
     width: 16px;
@@ -363,7 +413,7 @@ summary::before {
 details[open]>summary::before {
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 3%;
     transform: translateY(-50%) rotate(90deg) rotateX(180deg) scaleY(2);
     display: inline-block;
 }
