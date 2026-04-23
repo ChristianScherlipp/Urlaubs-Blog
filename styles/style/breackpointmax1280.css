@@ -209,5 +209,17 @@
 
     }
 
+    .ro-video {
+        height: 410px;
+    }
+
+    .gl-list {
+        padding: 20px;
+    }
+
+    ul {
+        padding-left: 40px;
+    }
+
 
 }

@@ -396,4 +396,18 @@
         padding: 50px;
     }
 
+    /* style kevin */
+
+    .ro-video {
+        height: 250px;
+    }
+
+    .gl-list {
+        padding: 20px;
+    }
+
+    ul {
+        padding-left: 40px;
+    }
+
 }
