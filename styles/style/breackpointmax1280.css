@@ -32,6 +32,42 @@
         color: #4EA487;
     }
 
+    /* style header */
+
+    .hero {
+        padding: 0px 100px;
+        overflow: hidden;
+
+    }
+
+    .hero-txt {
+        display: none;
+    }
+
+    .logo-header {
+        top: 48%;
+        left: 30%;
+    }
+
+    .rotate img {
+        height: 100%;
+        width: 70px;
+        left: 10px;
+    }
+
+    .static img {
+        width: 39px;
+    }
+
+
+
+
+
+    .static {
+        left: 26px;
+        top: 26px;
+    }
+
     /* Style Highlights */
 
     .highlights_header {
@@ -46,19 +82,6 @@
     .faq_section {
         padding: 0px 100px;
     }
-
-        summary {
-    padding-right: 45px;
-}
-
-    summary::before {
-    right: 5%;
-    
-}
-
-details[open]>summary::before {
-    right: 5%;
-}
 
 
     /* Style contact */
@@ -149,7 +172,7 @@ details[open]>summary::before {
     }
 
     /* Style eigene Seite */
-   
+
     .share {
         padding: 40px 0px 120px 0;
     }
