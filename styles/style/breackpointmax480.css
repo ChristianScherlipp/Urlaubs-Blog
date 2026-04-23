@@ -1,16 +1,16 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
-     h3{
-    font-family: 'Arima';
-    font-size: 1.25rem;
-    color: rgba(84, 55, 13, 1);
+
+    h3 {
+        font-family: 'Arima';
+        font-size: 1.25rem;
+        color: rgba(84, 55, 13, 1);
     }
 
     h1 {
         font-size: 2.5rem;
     }
 
-    .p {
     .p {
         font-size: 1rem;
     }
@@ -60,17 +60,13 @@
 
     .highlights_header {
         padding: 0px 20px 80px 20px;
-    .highlights_header {
-        padding: 0px 20px 80px 20px;
     }
 
-    .slider_a_element {
-        padding: 0px 20px;
+
     .slider_a_element {
         padding: 0px 20px;
     }
 
-    /* Style FAQ */
     /* Style FAQ */
     .faq_section {
         padding: 0px 20px;
@@ -203,16 +199,19 @@
     }
 
     /* Style Eigene Seite */
-    .gl-preface{
+    .gl-preface {
         padding: 20px;
     }
-    .gl-second-text{
+
+    .gl-second-text {
         padding: 20px;
     }
-    .gl-text-content{
+
+    .gl-text-content {
         padding: 20px;
     }
-    .gl-text-content-2{
+
+    .gl-text-content-2 {
         padding: 20px;
     }
 
@@ -220,17 +219,16 @@
         padding-right: 0px;
 
     }
+
     .gl-starttext {
         padding-right: 0px;
 
     }
 
-    .gl-starttext>h2 {
     .gl-starttext>h2 {
         font-size: 1.25rem;
     }
 
-    .gl-icon {
     .gl-icon {
         gap: 10px;
     }
@@ -245,17 +243,19 @@
     }
 
     .share {
-    .share {
         padding-top: 40px;
         padding-bottom: 120px;
     }
-    .tipps-list{
+
+    .tipps-list {
         padding: 20px;
     }
-    .tipps-img{
+
+    .tipps-img {
         margin-bottom: -10%;
     }
-    p{
+
+    p {
         font-size: 1.1rem;
     }
 
@@ -265,6 +265,7 @@
         padding: 80px 40px;
 
     }
+
     .Static_section {
         padding: 80px 40px;
 
@@ -284,10 +285,6 @@
         width: 100%;
     }
 
-
-
-
-   
 
     .slider {
         height: 100%;
@@ -309,10 +306,7 @@
         display: none;
     }
 
-    .dots {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     input[ type="radio"] {
         display: none;
     }
@@ -366,6 +360,7 @@
     #s5:checked~.viewport .slider {
         transform: translateX(-240%);
     }
+
     #s1:checked .slider {
         transform: translateX(0px);
     }
@@ -393,15 +388,15 @@
     #s5:checked~.viewport .slider img:nth-child(5) {
         transform: none;
 
-    #s1:checked~.viewport .slider img:nth-child(1),
-    #s2:checked~.viewport .slider img:nth-child(2),
-    #s3:checked~.viewport .slider img:nth-child(3),
-    #s4:checked~.viewport .slider img:nth-child(4),
-    #s5:checked~.viewport .slider img:nth-child(5) {
-        transform: none;
+        #s1:checked~.viewport .slider img:nth-child(1),
+        #s2:checked~.viewport .slider img:nth-child(2),
+        #s3:checked~.viewport .slider img:nth-child(3),
+        #s4:checked~.viewport .slider img:nth-child(4),
+        #s5:checked~.viewport .slider img:nth-child(5) {
+            transform: none;
 
 
-    }
+        }
     }
 
     #s2:checked~.viewport .slider img:nth-child(1),
@@ -411,6 +406,7 @@
         transform: perspective(300px) rotateY(15deg) translateX(-15px);
 
     }
+
     #s2:checked~.viewport .slider img:nth-child(1),
     #s3:checked~.viewport .slider img:nth-child(-n+2),
     #s4:checked~.viewport .slider img:nth-child(-n+3),
@@ -439,14 +435,15 @@
     #element_e {
         transform: perspective(300px) rotateY(-15deg) translateX(-15px);
     }
-    
-    #ana_ol{
+
+    #ana_ol {
         padding: 20px;
     }
-    .top_style{
+
+    .top_style {
         padding: 50px;
     }
-    
-   
+
+
 
 }
