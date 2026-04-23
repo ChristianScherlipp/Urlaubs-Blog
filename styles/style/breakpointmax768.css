@@ -1,6 +1,7 @@
 /* Breackpoint from 481px to 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+   
 
     .p {
         font-size: 1.25rem;
@@ -141,6 +142,7 @@
 
     footer {
         padding: 30px 24px;
+        align-items: flex-end;
     }
 
     .mobile-menu-icons {
@@ -152,6 +154,18 @@
     }
 
     /* style eigene Seite */
+    .gl-preface{
+        padding: 50px;
+    }
+     .gl-second-text{
+        padding: 50px;
+    }
+    .gl-text-content{
+        padding: 50px;
+    }
+    .gl-text-content-2{
+        padding: 50px;
+    }
 
     .gl-starttext {
         padding-right: 0px;
@@ -174,6 +188,12 @@
     .share {
         padding-top: 40px;
         padding-bottom: 120px;
+    }
+    .tipps-list{
+        padding: 50px;
+    }
+    .tipps-img{
+        margin-bottom: -5%;
     }
 
     /* Seite CHris */

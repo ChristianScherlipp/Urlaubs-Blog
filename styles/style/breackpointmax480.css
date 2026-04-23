@@ -1,8 +1,13 @@
 /* max Breakpoint 480px  */
 @media screen and (max-width: 480px) {
+     h3{
+    font-family: 'Arima';
+    font-size: 1.25rem;
+    color: rgba(84, 55, 13, 1);
+    }
 
     h1 {
-        font-size: 2.5;
+        font-size: 2.5rem;
     }
 
     .p {
@@ -26,7 +31,8 @@
     }
 
     footer {
-        padding: 30px 24px;
+        padding: 10px 14px;
+        align-items: flex-end;
     }
 
     .right_footer img {
@@ -175,7 +181,19 @@
 
     }
 
-    /* tyle Eigene Seite */
+    /* Style Eigene Seite */
+    .gl-preface{
+        padding: 20px;
+    }
+    .gl-second-text{
+        padding: 20px;
+    }
+    .gl-text-content{
+        padding: 20px;
+    }
+    .gl-text-content-2{
+        padding: 20px;
+    }
 
     .gl-starttext {
         padding-right: 0px;
@@ -202,6 +220,15 @@
     .share {
         padding-top: 40px;
         padding-bottom: 120px;
+    }
+    .tipps-list{
+        padding: 20px;
+    }
+    .tipps-img{
+        margin-bottom: -10%;
+    }
+    p{
+        font-size: 1.1rem;
     }
 
     /* Seite Chris */
@@ -336,7 +363,12 @@
     #element_e {
         transform: perspective(300px) rotateY(-15deg) translateX(-15px);
     }
-
-
+    
+    #ana_ol{
+        padding: 20px;
+    }
+    
+    
+   
 
 }
