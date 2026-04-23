@@ -47,6 +47,19 @@
         padding: 0px 100px;
     }
 
+        summary {
+    padding-right: 45px;
+}
+
+    summary::before {
+    right: 5%;
+    
+}
+
+details[open]>summary::before {
+    right: 5%;
+}
+
 
     /* Style contact */
     .contact {

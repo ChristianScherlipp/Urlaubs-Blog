@@ -43,6 +43,19 @@
         padding: 0px 50px;
     }
 
+      summary {
+        font-size: 1.25rem;
+        padding-right: 45px;
+    }
+
+    summary::before {
+        right: 3%;
+    }
+
+    details[open]>summary::before {
+        right: 3%;
+    }
+
 
     /* Style contact */
 
