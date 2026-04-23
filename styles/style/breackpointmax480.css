@@ -56,6 +56,50 @@
         color: #4EA487;
     }
 
+    /* style header */
+
+    .hero {
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    .hero-txt {
+        display: none;
+    }
+
+    .logo-header {
+        top: 24%;
+        left: 20%;
+    }
+
+    .rotate img {
+        height: 100%;
+        width: 70px;
+        left: 10px;
+    }
+
+    .main-img {
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+        left: -620px;
+        width: 100vh;
+    }
+
+    .shape {
+        height: 200px;
+    }
+
+    .static {
+        left: 26px;
+        top: 26px;
+    }
+
+    .static img {
+        width: 40px;
+    }
+
     /* Style Highlights */
 
     .highlights_header {
@@ -445,5 +489,16 @@
     }
 
 
+    /* style kevin */
 
+    .ro-video{
+        height: 165px;
+    }
+
+    .gl-list{
+        padding: 20px;
+    }
+    ul{
+        padding-left: 40px;
+    }
 }
