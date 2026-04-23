@@ -1,15 +1,15 @@
 /* Breackpoint from 769px to 1280px */
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
-   
-   h3{
+
+    h3 {
         font-size: 1.5rem;
     }
 
-    p{
+    p {
         font-size: 1.25rem;
     }
-   
+
     nav {
         gap: 50px;
         padding: 32px 24px 24px 50px;
@@ -32,19 +32,19 @@
         color: #4EA487;
     }
 
-     /* Style Highlights */
+    /* Style Highlights */
 
     .highlights_header {
-    padding: 0px 100px 80px 100px;
+        padding: 0px 100px 80px 100px;
     }
 
     .slider_a_element {
-    padding: 0px 100px;
+        padding: 0px 100px;
     }
 
     /* Style FAQ */
     .faq_section {
-         padding: 0px 100px;
+        padding: 0px 100px;
     }
 
 
@@ -135,24 +135,43 @@
         display: none;
     }
 
-      /* Style eigene Seite */
+    /* Style eigene Seite */
 
-    .share{
+    .share {
         padding: 40px 0px 120px 0;
     }
 
     .activ {
         padding: 0px 60px;
     }
-     .activ_section {
+
+    .activ_section {
         gap: 40px;
-     }
+    }
+
     .activ_card {
         justify-content: space-between;
     }
 
     .activ_card>img {
-    width: 100%;
+        width: 100%;
     }
+
+    .slider {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+
+    }
+
+    .slider img {
+        width: 100%;
+        max-width: 130px;
+        height: 200px;
+
+    }
+
 
 }
