@@ -139,8 +139,8 @@ ul {
 
 .static {
     position: absolute;
-    left: 5vh;
-    top: 5vh;
+    left: 45px;
+    top: 45px;
     z-index: 3;
 }
 
@@ -665,7 +665,7 @@ h4 {
     height: 20px;
 }
 
-.gl-share-button button:active {
+.gl-share-button button:focus {
     animation: slide-left 1s ease-in-out forwards;
 }
 
