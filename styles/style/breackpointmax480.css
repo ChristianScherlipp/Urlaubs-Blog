@@ -297,8 +297,8 @@
     }
 
     .dots label {
-        height: 10px;
-        width: 10px;
+        height: 20px;
+        width: 20px;
         border-radius: 50%;
         background-color: rgba(78, 164, 135, 0.3);
 
@@ -310,7 +310,7 @@
     #s4:checked~.dots label[for="s4"],
     #s5:checked~.dots label[for="s5"] {
         background-color: rgba(78, 164, 135, 1);
-        width: 25px;
+        width: 30px;
         border-radius: 30%;
     }
 
@@ -380,7 +380,9 @@
     #ana_ol{
         padding: 20px;
     }
-    
+    .top_style{
+        padding: 50px;
+    }
     
    
 
