@@ -55,8 +55,8 @@
         overflow: hidden;
         height: 100%;
         position: relative;
-        left: -460px;
-        width: 100vh;
+        left: -230px;
+        width: 1000px;
     }
 
     .shape {
@@ -78,6 +78,10 @@
 
     .highlights_header {
         padding: 0px 50px 80px 50px;
+    }
+
+    .highlights_header p {
+        display: none;
     }
 
 
@@ -104,6 +108,12 @@
 
     details[open]>summary::before {
         right: 3%;
+    }
+
+    /* style button */
+    .gl-share-one {
+        width: 390px;
+        padding-top: 10px;
     }
 
 

@@ -144,7 +144,7 @@ ul {
     z-index: 3;
 }
 
-.static img{
+.static img {
     width: 60px;
 }
 
@@ -620,7 +620,7 @@ h4 {
 /* Style Share */
 
 .gl-share-one {
-    width: 495px;
+    width: 475px;
     margin: auto;
     text-align: center;
 }
@@ -629,12 +629,12 @@ h4 {
     white-space: nowrap;
 }
 
-.gl-share-link {
+/* .gl-share-link {
     text-align: center;
     position: relative;
     top: 40px;
     display: none;
-}
+} */
 
 
 .arow {
@@ -649,7 +649,73 @@ h4 {
     text-align: left;
 }
 
-.gl-share-button  {
+
+
+
+/* button */
+
+.gl-share input {
+    display: none;
+}
+
+.gl-share {
+    display: flex;
+    justify-content: center;
+}
+
+.gl-button {
+    width: 140px;
+    height: 50px;
+    border-radius: 120px;
+    background-color: #4EA487;
+    color: #F1C953;
+    border: none;
+
+    font-family: "arima";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 0;
+    bottom: 50px;
+    transition: all 0.5s ease;
+    display: flex;
+}
+
+.gl-share-link {
+    display: none;
+    position: relative;
+    bottom: 50px;
+}
+
+.gl-share-link>a {
+    color: #1a7a5e;
+    text-decoration: none;
+
+}
+
+#gl-button:checked~.gl-button {
+    transform: translateX(-100px);
+}
+
+#gl-button:checked~.gl-share-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#gl-button:checked~.gl-button>img {
+    display: none;
+
+
+}
+
+/* .gl-share-button  {
     z-index: 1;
 }
 
@@ -700,7 +766,7 @@ h4 {
     font-family: "arima";
     font-size: 24px;
     font-weight: 700;
-}
+} */
 
 /* Annastasiia Seite */
 
