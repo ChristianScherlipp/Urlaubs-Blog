@@ -300,17 +300,14 @@
     }
 
     .slider {
+        width: 100%;
         gap: 20px;
         justify-content: flex-start;
-        padding-left: 230px;
-    }
-
-
-    .slider img {
-        width: 100%;
-        max-width: 250px;
 
     }
+
+
+   
 
 
     input[ type="radio"] {
@@ -343,29 +340,18 @@
         border-radius: 20px;
     }
 
-    .viewport {
+     .viewport {
         overflow: hidden;
+        width: 100vw;
     }
 
-    #s1:checked .slider {
-        transform: translateX(0px);
-    }
+    
+    #s1:checked ~ .viewport .slider {transform: translateX(calc(50vw - 100px));}
+    #s2:checked ~ .viewport .slider {transform: translateX(calc(50vw - 310px));}
+    #s3:checked ~ .viewport .slider {transform: translateX(calc(50vw - 520px));}
+    #s4:checked ~ .viewport .slider {transform: translateX(calc(50vw - 730px));}
+    #s5:checked ~ .viewport .slider{transform: translateX(calc(50vw - 940px));}
 
-    #s2:checked~.viewport .slider {
-        transform: translateX(-40%);
-    }
-
-    #s3:checked~.viewport .slider {
-        transform: translateX(-80%);
-    }
-
-    #s4:checked~.viewport .slider {
-        transform: translateX(-120%);
-    }
-
-    #s5:checked~.viewport .slider {
-        transform: translateX(-160%);
-    }
 
     #s1:checked~.viewport .slider img:nth-child(1),
     #s2:checked~.viewport .slider img:nth-child(2),
