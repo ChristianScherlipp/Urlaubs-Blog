@@ -381,8 +381,8 @@
     #s4:checked~.dots label[for="s4"],
     #s5:checked~.dots label[for="s5"] {
         background-color: rgba(78, 164, 135, 1);
-        width: 30px;
-        border-radius: 30%;
+        width: 40px;
+        border-radius: 20px;
     }
 
     .viewport {
