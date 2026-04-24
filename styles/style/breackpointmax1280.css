@@ -202,11 +202,34 @@
 
     }
 
+    .tipps-list {
+        padding: 0px;
+
+    }
+
+    .gl-text-content {
+        padding: 0;
+    }
+
+    .gl-text-content-2 {
+        padding: 0;
+    }
+
     .slider img {
         width: 100%;
         max-width: 130px;
         height: 200px;
 
+    }
+
+    .gl-text-content {
+        padding: 0px;
+    }
+
+    .gl-second-text {
+
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .ro-video {

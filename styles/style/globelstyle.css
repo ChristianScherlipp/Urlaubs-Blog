@@ -831,7 +831,7 @@ h4 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 88px 100px 88px 100px;
+  padding: 100px 60px;
 }
 
 #ana_ol > p {

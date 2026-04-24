@@ -11,7 +11,7 @@
     /* Style FAQ */
 
     .faq {
-        padding: 80px max(calc(50% - 720px));
+        padding: 80px max(calc(50% - 720px), 80px);
     }
 
     .faq_section {
@@ -122,7 +122,7 @@
     /* styling Footer */
 
     footer {
-        padding: 60px max(calc(50% - 720px));
+        padding: 60px max(calc(50% - 720px), 60px);
     }
 
     .mobile-menu-icons {

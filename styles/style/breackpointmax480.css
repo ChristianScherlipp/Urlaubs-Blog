@@ -290,6 +290,8 @@
         gap: 40px;
     }
 
+
+
     .share {
         padding-top: 40px;
         padding-bottom: 120px;
@@ -325,7 +327,7 @@
     }
 
     .activ {
-        padding: 0px 40px;
+        padding: 40px;
     }
 
     .activ_card>img {
@@ -508,10 +510,8 @@
     }
 
     /* butten */
-    .gl-share-one {
-        width: 300px;
 
-    }
+
 
     .gl-button {
         width: 100px;
@@ -530,7 +530,7 @@
     }
 
     .gl-share-one {
-        width: 390px;
+        width: 300px;
         padding-top: 10px;
     }
 
