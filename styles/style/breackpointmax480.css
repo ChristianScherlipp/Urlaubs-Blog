@@ -335,6 +335,10 @@
         width: 100%;
     }
 
+    #ana_ol {
+        padding: 0px 10px;
+    }
+
 
     /* .slider {
         width: 100%;
@@ -345,16 +349,16 @@
         gap: 10px;
 
     } */
-    .slider{
+    .slider {
         display: flex;
         gap: 10px;
         justify-content: flex-start;
         perspective: none;
     }
-  
+
 
     .slider img {
-       flex-shrink: 0;
+        flex-shrink: 0;
 
     }
 
@@ -398,13 +402,27 @@
         overflow: hidden;
         width: 100vw;
     }
-    
-    
-    #s1:checked ~ .viewport .slider {transform: translateX(calc(50vw - 100px));}
-    #s2:checked ~ .viewport .slider {transform: translateX(calc(50vw - 310px));}
-    #s3:checked ~ .viewport .slider {transform: translateX(calc(50vw - 520px));}
-    #s4:checked ~ .viewport .slider {transform: translateX(calc(50vw - 730px));}
-    #s5:checked ~ .viewport .slider{transform: translateX(calc(50vw - 940px));} 
+
+
+    #s1:checked~.viewport .slider {
+        transform: translateX(calc(50vw - 100px));
+    }
+
+    #s2:checked~.viewport .slider {
+        transform: translateX(calc(50vw - 310px));
+    }
+
+    #s3:checked~.viewport .slider {
+        transform: translateX(calc(50vw - 520px));
+    }
+
+    #s4:checked~.viewport .slider {
+        transform: translateX(calc(50vw - 730px));
+    }
+
+    #s5:checked~.viewport .slider {
+        transform: translateX(calc(50vw - 940px));
+    }
 
 
 
@@ -426,8 +444,8 @@
         transform: perspective(300px) rotateY(15deg) translateX(-15px);
 
     }
-    
-     #element_a {
+
+    #element_a {
         transform: perspective(300px) rotateY(-15deg) translateX(-15px);
     }
 
@@ -446,9 +464,9 @@
 
     #element_e {
         transform: perspective(300px) rotateY(-15deg) translateX(-15px);
-    } */
+    }
 
-    #ana_ol {
+    */ #ana_ol {
         padding: 20px;
     }
 

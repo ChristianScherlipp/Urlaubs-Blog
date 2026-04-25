@@ -203,16 +203,18 @@
     }
 
     .tipps-list {
-        padding: 0px;
+        padding: 100px;
 
     }
 
     .gl-text-content {
-        padding: 0;
+        padding: 0px 100px;
     }
 
+
     .gl-text-content-2 {
-        padding: 0;
+        padding: 0px 100px;
+        padding-bottom: 20px;
     }
 
     .slider img {
@@ -222,22 +224,19 @@
 
     }
 
-    .gl-text-content {
-        padding: 0px;
-    }
 
-    .gl-second-text {
+    /* .gl-second-text {
 
         padding-left: 0px;
         padding-right: 0px;
-    }
+    } */
 
     .ro-video {
         height: 410px;
     }
 
     .gl-list {
-        padding: 20px;
+        padding: 100px;
     }
 
     ul {

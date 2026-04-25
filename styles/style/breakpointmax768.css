@@ -260,6 +260,7 @@
     .activ_section {
         flex-direction: column;
         gap: 40px;
+        padding: 0px 40px;
     }
 
     .activ{
@@ -285,6 +286,10 @@
     .Static_section {
         padding: 80px 40px;
 
+    }
+
+    .c-padding{
+        padding: 0px 40px;
     }
 
 
