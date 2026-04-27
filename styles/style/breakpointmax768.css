@@ -315,9 +315,6 @@
    
 
 
-    input[ type="radio"] {
-        display: none;
-    }
 
     .dots {
         display: flex;
@@ -347,7 +344,6 @@
 
      .viewport {
         overflow: hidden;
-        width: 100vw;
     }
 
     
